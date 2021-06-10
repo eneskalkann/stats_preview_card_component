@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #0a0c1b;
+    background-size: 100%;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins' sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: auto 0; 
+    background-color: #1c1938;
+    border-radius: 20px;
+    height: 350px;
+    width: 1050px;
+    margin-top: 9%;
+    flex-direction: column; 
+    color: #fff;
+}
+
+.container img{
+    border-radius: 20px;
+    width: 500px;
+    height: 400x;
+    display: flex;
+    margin-bottom :0;
+    padding-right: 5px;
+    float: right;
+    padding-top: 10px;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    position: absolute;
+}
+
+span{
+    color: #5b3574;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+p{
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
+    position:relative;
+}
+
+ul{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    opacity: 0.6;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .container{
+        height: 660px;
+        width:360px;
+    }
+    .container img{
+        width: 360px;
+        display: flex;
+        padding: 0;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position:relative;
+        margin-top: 0px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+    .stats{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:362px){
+    .container{
+        height: 560px;
+        width:260px;
+    }
+    .container img{
+        width: 260px;
+    }
+    .header{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    ul{
+        font-size: 12px;
+    }
+}
